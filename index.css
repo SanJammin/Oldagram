@@ -52,3 +52,7 @@ header {
 #posters-location {
     font-size: 12px;
 }
+
+#post {
+    height: 375px;
+}
