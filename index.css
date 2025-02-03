@@ -56,3 +56,20 @@ header {
 #post {
     height: 375px;
 }
+
+.icons {
+    padding: 10px;
+}
+
+#like,
+#comment,
+#message {
+    height: 22px;
+    margin: 0 5px;
+}
+
+#like:hover,
+#comment:hover,
+#message:hover {
+    opacity: 0.5;
+}
