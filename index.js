@@ -1,3 +1,5 @@
+// Posts Array & Objects Provided By Scrimba
+
 const posts = [
     {
         name: "Vincent van Gogh",
@@ -27,3 +29,26 @@ const posts = [
         likes: 152
     }
 ]
+
+// My code
+
+const posterAvatar = document.getElementById("posters-avatar");
+const posterName = document.getElementById("posters-name");
+const posterLocation = document.getElementById("posters-location");
+const post = document.getElementById("post");
+const like = document.getElementById("like");
+const comment = document.getElementById("comment");
+const message = document.getElementById("message");
+const likesCounter = document.getElementById("likes-counter");
+const userName = document.getElementById("user-name");
+const paraComment = document.getElementById("para-comment");
+
+for (let i=0; i < posts.length; i++) {
+    posterAvatar.src = posts[i].avatar;
+    posterName.textContent = posts[i].name;
+    posterLocation.textContent = posts[i].location;
+    post.src = posts[i].post;
+    likesCounter.textContent = `${posts[i].likes} likes`;
+    userName.textContent = posts[i].username;
+    paraComment.textContent = posts[i].comment;
+}
