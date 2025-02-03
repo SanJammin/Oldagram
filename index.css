@@ -45,11 +45,14 @@ header {
     padding: 0;
 }
 
-#posters-name {
+#posters-name,
+#likes-counter,
+#user-name {
     font-size: 13px;
 }
 
-#posters-location {
+#posters-location,
+#para-comment {
     font-size: 12px;
 }
 
@@ -58,7 +61,7 @@ header {
 }
 
 .icons {
-    padding: 10px;
+    padding-left: 10px;
 }
 
 #like,
@@ -72,4 +75,23 @@ header {
 #comment:hover,
 #message:hover {
     opacity: 0.5;
+}
+
+#likes-counter,
+.likes-and-comments {
+    padding-left: 15px;
+    margin-top: 0;
+}
+
+.likes-and-comments {
+    display: flex;
+}
+
+#para-comment {
+    margin-left: 3px;
+}
+
+#user-name,
+#para-comment {
+    margin-top: 0;
 }
