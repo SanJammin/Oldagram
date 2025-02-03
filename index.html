@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <title>Oldagram</title>
 </head>
 <body>
 
     <header>
-        <img src="images/logo.png" id="logo">
-        <img src="images/user-avatar.png" id="user-avatar">
+        <img src="images/logo.png" id="logo" alt="Oldagram">
+        <img src="images/user-avatar.png" id="user-avatar" alt="User's profile picture">
     </header>
+
+    <section>
+        <div class="poster">
+            <img src="images/avatar-vangogh.jpg" id="posters-avatar" alt="Poster's profile picture">
+            <div class="posters-information">
+                <h1 id="posters-name">Vincent van Gogh</h1>
+                <p id="posters-location">Zudert, Netherlands</p>                
+            </div>
+        </div>
+    </section>
     
     <script src="index.js"></script>
 </body>
