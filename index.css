@@ -59,6 +59,7 @@ header {
 
 #post {
     height: 375px;
+    width: 100%;
 }
 
 .icons {
